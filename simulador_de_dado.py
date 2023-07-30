@@ -17,7 +17,7 @@ class SimuladorDeDado:
                     print('Agredecemos a sua participacao!')
                 else:
                     print('Favor digitar sim ou nao')
-            exception:
+            except:
                 print('Ocorreu um erro ao receber sua resposta')
 
         def GerarValorDoDado(self):
